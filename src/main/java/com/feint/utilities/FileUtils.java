@@ -7,7 +7,11 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * 
+ */
 public class FileUtils{
+    //download file from internet
     public static void download(URL url,String filePath)throws Exception{
         InputStream input=url.openConnection().getInputStream();
 
